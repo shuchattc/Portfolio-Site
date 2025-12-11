@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- [if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif] -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <ul class="nav sticky-top nav-underline ms-3" id="navigation">
+            <li class="nav-item">
+                <a id="navlink" class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a id="navlink" class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a id="navlink" class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a id="navlink" class="nav-link" href="https://github.com/shuchattc" target="_blank">GitHub Profile</a>
+            </li>
+        </ul>
+        <h1 id="myName">Tyler Shuchat Web Developer</h1>
+        <section id="about">
+        <div class="container text-left mt-5">
+            <div class="row" id="mydescdiv">
+                <div class="m-3">
+                    <svg class="col-lg-4" src="icon.png"></svg>
+                </div>
+                <p class="col-lg-6" id="mydesc">I am a Web Developer from Philadelphia, Pennsylvania. My core skills include, HTML, CSS, Javascript, Bootstrap, Node.JS, Express, React, and Mongo. 
+                    I have experience with older technologies such as jQuery and classroom experience with Java and MySQL. I always strive to improve myself and learn new technologies and frameworks. 
+                    With seven years of experience in IT Support and Networking, I have developed strong soft skills, enabling me to handle high-pressure situations and communicate technical goals effectively to clients.</p> 
+                <img class="col-lg-6" src="icon.png" id="self">
+            </div>
+        </div>
+        <hr>
+        <div class="skillsetsection">
+            <p id="skillsettitle">My Skillset</p>
+            <div class="row">
+                <img src="htmlfinal.png" alt="" id="htmlskill">
+                <img src="cssfinal.png" alt="" id="cssskill">
+                <img src="jsfinal.png" alt="" id="cssskill">
+                <img src="reactfinal2.png" alt="" id="cssskill">
+                <img src="nodefinal.png" alt="" id="cssskill">
+                <img src="jquery.png" alt="" id="cssskill">
+            </div>
+        </div>
+
+        </section>
+        <hr>
+
+        <div id="projects">
+            <div class="container text-center">
+            <h1>Projects</h1>
+            <div class="row gx-4">
+                <div class="col-xl-4 gx-4 p-3">
+                <h3>Weather Axios Project</h3>
+                <hr>
+                <img id="weather" src="WeatherApp.PNG" alt="Weather App"> 
+                <!-- zoomed in  version of picture -->
+                <div id="zoomed" class="zoom">
+                <span class="close">&times;</span>
+                <img class="zoom-content" id="img01">
+                <div id="caption"></div>
+                </div>   
+                <hr>
+                <p class="projectdesc">This project uses the API called OpenWeather Map along with Node to provide current weather for a user about the city they typed into the search bar.</p>
+                <p><a id="githubLinks" href="https://github.com/shuchattc/CurrentWeather" target="_blank">To Github Repository</a></p>
+                <p><a id="githubLinks" href="https://currentweather-o1tc.onrender.com" target="_blank">To Live Version</a></p>
+                <p>Tech stack used: Node, Axios, CSS, HTML, Javascript, Bootstrap</p>
+                </div>
+                
+            
+                <div class="col-xl-4 gx-4 p-3">
+                <h3>Sushi Ordering App</h3>
+                <hr>
+                <img id="p2" src="SushiApp.PNG" alt="Sushi App">  
+                <!-- zoomed in  version of picture -->
+                <div id="zoomed" class="zoom">
+                <span class="close">&times;</span>
+                <img class="zoom-content" id="img01">
+                <div id="caption"></div>
+                </div>     
+                <hr>
+                <p class="projectdesc" style="max-height: 110px; font-size: smaller;">This project is an attempt to mimic the ordering system of conveyor belt sushi tablets. It has a login/logout system, ordering system, and checkout system. Admin users can access the kitchen page, edit menu page, and add new administrators.</p>
+                <p><a id="githubLinks" href="https://github.com/shuchattc/ConveyorBeltEJSApp" target="_blank">To Github Repository</a></p>
+                <p><a id="githubLinks" href="https://my-conveyor-belt-sushi-app.onrender.com" target="_blank">To Live Version</a></p>
+                <p>Tech stack used: HTML, CSS, Javascript, Bootstrap, Node.JS, Express</p>
+                </div>
+                
+                <div class="col-xl-4 gx-4 p-3">
+                <h3>Fireworks Project</h3>
+                <hr>
+                <img id="p3" src="fireworks.PNG" alt="Fireworks">  
+                <!-- zoomed in  version of picture -->
+                <div id="zoomed" class="zoom">
+                <span class="close">&times;</span>
+                <img class="zoom-content" id="img01">
+                <div id="caption"></div>
+                </div>      
+                <hr>
+                <p class="projectdesc">This project was to learn animation in CSS. When you click on the webpage out bursts fireworks from the point you clicked in various colors.</p>
+                <p><a id="githubLinks" href="https://github.com/shuchattc/FireworksAnimationProject" target="_blank">To Github Repository</a></p>
+                <p><a id="githubLinks" href="https://fireworks-animation-project.onrender.com" target="_blank">To Live Version</a></p>
+                <p>Tech stack: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            <div class="row gx-4">
+                <div class="col-xl-4 gx-4 p-3">
+                <h3>Front End Final</h3>
+                <hr>
+                <img id="p4" src="frontendfinal.PNG" alt="Front End">  
+                <!-- zoomed in  version of picture -->
+                <div id="zoomed" class="zoom">
+                <span class="close">&times;</span>
+                <img class="zoom-content" id="img01">
+                <div id="caption"></div>
+                </div>      
+                <hr>
+                <p class="projectdesc">This is a final project for a front end development and design class, involving being able to make a responsive site with HTML and CSS.</p>
+                <p><a id="githubLinks" href="https://github.com/shuchattc/PianoProject" target="_blank">To Github Repository</a></p>
+                <p><a id="githubLinks" href="https://frontendpractice-5v81.onrender.com" target="_blank">To Live Version</a></p>
+                <p>Tech stack: HTML, CSS</p>
+            </div>
+                <div class="col-xl-4 gx-4 p-3">
+                <h3>Piano Project</h3>
+                <hr>
+                <img id="p5" src="PianoApp.PNG" alt="Piano">  
+                <!-- zoomed in  version of picture -->
+                <div id="zoomed" class="zoom">
+                <span class="close">&times;</span>
+                <img class="zoom-content" id="img01">
+                <div id="caption"></div>
+                </div>      
+                <hr>
+                <p class="projectdesc">This is a small project to learn React and use state, as well as working with audio files.</p>
+                <p><a id="githubLinks" href="https://github.com/shuchattc/PianoProject" target="_blank">To Github Repository</a></p>
+                <p><a id="githubLinks" href="https://pianoproject.onrender.com" target="_blank">To Live Version</a></p>
+                <p>Tech stack: HTML, CSS, Javascript, React, Vite</p>
+                </div>
+                <div class="col-xl-4 gx-4 p-3">
+                <h3>Slots</h3>
+                <hr>
+                <img id="p6" src="slots.PNG" alt="Slots">  
+                <!-- zoomed in  version of picture -->
+                <div id="zoomed" class="zoom">
+                <span class="close">&times;</span>
+                <img class="zoom-content" id="img01">
+                <div id="caption"></div>
+                </div>      
+                <hr>
+                <p class="projectdesc">This is a small project using vite and react for learning state and handling props.</p>
+                <p><a id="githubLinks" href="https://github.com/shuchattc/ReactSlots" target="_blank">To Github Repository</a></p>
+                <p><a id="githubLinks" href="https://reactslots.onrender.com" target="_blank">To Live Version</a></p>
+                <p>Tech stack: HTML, CSS, Javascript, React, Vite</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div id="resume">
+            <div class="container text-center mb-3 mt-3">
+                Click Here to Download my Resume: <button class="btn btn-info"><a href="Tyler Shuchat.pdf" id="resumeLink" download>Resume</a></button>
+            </div>
+        </div>
+    </body>
+    <script src="myScript.js" type="text/javascript"></script>
+</html>
